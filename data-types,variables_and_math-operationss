@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    char studentName[]="Ram";
+    int sem=2;
+    double sgpa=7.21;
+    char grade[]="B";
+    char status[]="PASS";
+    printf("Name of student:%s\n Sem:%d\n SGPA:%.2f\n Grade:%s\n Status:%s\n",studentName,sem,sgpa,grade,status);  //data-type,variables
+    
+    printf("%.1f\n",sqrt(36));//square root of 36
+    printf("%.1f\n",pow(3,2));//3 to the power 2
+    printf("%.1f\n",ceil(267.454));//rounds off to the nearest next decimal value.
+    printf("%.1f\n",floor(456.872));//rounds off to the decimal value. 
+      //calculation of sqrt,pow,ceil,floor 
+      
+    return 0;
+}
