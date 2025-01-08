@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    printf("Hi\n");
+    add(32.2,44.6);
+    sub(69,35);
+    mul(30,6);
+    div(64,2);
+    printf("\nThe end\n");
+    return 0;
+}
+void add(double num1,double num2 )
+{
+   printf("\nSum is %.2f\n",num1+num2);
+}
+void sub(int num3,int num4)
+{
+    printf("Diff is %d\n",num3-num4);
+}
+void mul(int num5,int num6)
+{
+    printf("Product is %d\n",num5*num6);
+}
+void div(int num7,int num8)
+{
+    printf("Quotient is %d\n",num7/num8);
+}
