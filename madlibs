@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    char color[20];
+    char noun[20];
+    char pronoun1[20];
+    char pronoun2[20];
+    printf("Enter color:\n");
+    scanf("%s",color);
+    printf("Enter noun:\n");
+    scanf("%s",noun);
+    printf("Enter pronoun1:\n");
+    printf("Enter pronoun2:\n");
+    scanf("%s%s",pronoun1,pronoun2);
+    printf("Roses are %s\n",color);
+    printf("%s is blue\n",noun);
+    printf("I like %s %s",pronoun1,pronoun2);
+    return 0;
+}
+
