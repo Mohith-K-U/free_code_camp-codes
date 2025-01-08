@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    float num1;
+    float num2;
+    char op;
+    printf("Enter first number:");
+    scanf("%f",&num1);
+    printf("Enter second number:");
+    scanf("%f",&num2);
+    printf("Enter operator:");
+    scanf("%s",&op);
+    switch(op){
+        case '+':
+        printf("%.2f",num1+num2); //Displays sum if '+' operator is entered.
+        break;
+        case '-':
+        printf("%.2f",num1-num2);//Displays difference if '-' operator is entered.
+        break;
+        case '*':
+        printf("%.2f",num1*num2);//Displays product if '*' operator is entered.
+        break;
+        case '/':
+        printf("%.2f",num1/num2);//Displays quotient if '/' operator is entered.
+        break;
+        default:
+        printf("Invalid operator");
+    }
+    return 0;
+}
